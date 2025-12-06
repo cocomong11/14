@@ -3,9 +3,6 @@
 #include <string.h>
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 
 struct Book {
     int number;
@@ -29,6 +26,7 @@ void main(void) {
     strcpy((p + 1)->title, "Electronics");
 
     free(p);
-    return;
+    system("PAUSE");
+    return 0;
 }
 
